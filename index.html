@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Gallery- a journey to monuments</title>
+</head>
+
+<body>
+	
+    <!-- Heading Name -->
+    <div class="heading">
+        <h1>Image Gallery</h1>
+    </div>
+     <h2> a journey to the historical monuments </h2>
+    <!-- Image Gallery section all images in one div -->
+    <div class="gallery">
+        <div class="gallery-item">`	
+            <img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/1-min-3-1.jpg"   onclick="openModal('https://www.oyorooms.com/blog/wp-content/uploads/2017/10/1-min-3-1.jpg')" alt="the victoria memorial">
+			        </div>
+        <div class="gallery-item">
+            <img src="https://www.pragyanam.school/wp-content/uploads/2024/04/Redfort-1024x576.jpg"   onclick="openModal('https://www.pragyanam.school/wp-content/uploads/2024/04/Redfort-1024x576.jpg')"      alt="red fort">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.holidify.com/images/cmsuploads/compressed/golden-temple-397886_1920_20180814155122.jpg"   onclick="openModal('https://www.holidify.com/images/cmsuploads/compressed/golden-temple-397886_1920_20180814155122.jpg')"    alt="golden temple">
+        </div>
+        <div class="gallery-item">
+            <img src="https://imgcld.yatra.com/ytimages/image/upload/t_monuments_srplist/v1514566839/Monuments/Aurangabad/8487c29d-e371-4e53-a570-23c6eae97175/1_1pHHln.jpg"  onclick="openModal('https://imgcld.yatra.com/ytimages/image/upload/t_monuments_srplist/v1514566839/Monuments/Aurangabad/8487c29d-e371-4e53-a570-23c6eae97175/1_1pHHln.jpg')"  alt="taj mahal">
+        </div>
+        <div class="gallery-item">
+            <img src="https://www.treebo.com/blog/wp-content/uploads/2018/08/Qutub-Minar.jpg"       onclick="openModal('https://www.treebo.com/blog/wp-content/uploads/2018/08/Qutub-Minar.jpg')" alt="qutub minar">
+        </div>
+        <div class="gallery-item">
+            <img src="https://miro.medium.com/v2/resize:fit:1000/1*QORlG-S0bD1CKXkKgdXD1w.jpeg"  onclick="openModal('https://miro.medium.com/v2/resize:fit:1000/1*QORlG-S0bD1CKXkKgdXD1w.jpeg')" alt="india gate">
+        </div>
+        <div class="gallery-item">
+            <img src="https://img.jagranjosh.com/imported/images/E/GK/shore%20temple.jpg"       onclick="openModal('https://img.jagranjosh.com/imported/images/E/GK/shore%20temple.jpg')" alt="a old temple">
+        </div>
+        <div class="gallery-item">
+            <img src="https://travel-blog.happyeasygo.com/wp-content/uploads/2020/05/Hampi-Karnataka.jpg" onclick="openModal('https://travel-blog.happyeasygo.com/wp-content/uploads/2020/05/Hampi-Karnataka.jpg')"       alt="sun temple">
+        </div>
+    </div>
+
+    <!-- Modal for Image Display -->
+    <div id="myModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+   <script lang="javascript" src="script.js"></script>
+</body>
+
+</html>
